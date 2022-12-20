@@ -14,7 +14,8 @@ function PrimaryButton(props: IProps) {
         <span className="relative inline-flex rounded-full h-3 w-3 bg-secondary"></span>
       </span>
       <a
-        href={`${props.url ? props.url : "/contact"}`}
+        // href={`${props.url ? props.url : "/contact"}`}
+        href="mailto:ankurcool.kumar@gmail.com"
         className="no-underline"
       >
         <button
